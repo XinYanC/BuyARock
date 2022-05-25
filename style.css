@@ -1,0 +1,137 @@
+#header-img{
+    width: 75px;
+    height: auto;
+    margin: 0px 10px;
+    border-radius: 30%;
+}
+a{
+    color: rgb(72, 125, 212);
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(74, 75, 77);
+    position: fixed;
+    width: 98%;
+    top: 0px;
+    left: 0px;
+}
+#logo{
+    display: flex;
+    margin-right: auto;
+    color: white;
+    font-family: 'Grape Nuts', cursive;
+    font-weight: 100;
+    font-size: 15pt;
+}
+#link{
+    display: inline-block;
+    margin: 0px 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+#logo, .nav-link{
+    text-decoration: none;
+    color: white;
+}
+#logo{
+    display: flex;
+    align-items: center;
+}
+#video-frame iframe{
+    display: block;
+    margin: 100px auto;
+}
+#sub{
+    margin: 125px 30% 50px 30%;
+    text-align: center;
+    line-height: 150%;
+    border: 1px solid;
+    background-color: rgb(213, 225, 245);
+    font-family: 'Assistant', sans-serif;
+}
+#email, #submit{
+    font-family: 'Assistant', sans-serif;
+}
+#about, #featured, #subscription, #video-frame{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px 10% 50px 10%;
+}
+#unlink{
+    text-decoration: none;
+    color: rgb(22, 60, 122);
+}
+#about{
+    line-height: 125%;
+    padding: 0px 10% 50px 10%;
+    margin-top: 100px;
+}
+#featured{
+    padding: 0px 10% 50px 10%;
+    margin-top: 125px;
+}
+.ftimg{
+    width: 275px;
+    transition: transform .2s;
+}
+#arr1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.ftimg:hover{
+    transform: scale(1.1); 
+}
+footer{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    line-height: 175%;
+    font-family: 'Assistant', sans-serif;
+    background-color: rgb(74, 75, 77);
+    color: white;
+}
+#subscription{
+    padding: 0px 10% 50px 10%;
+    margin-top: 125px;
+}
+#options{
+    display: flex;
+    justify-content: space-between;
+    margin: 10% 10% 10% 10%;
+    line-height: 150%;
+}
+#basic{
+    border: 1px solid;
+    padding: 30px;
+    inline-size: 40%;
+    overflow-wrap: break-word;
+}
+#basic:hover{
+    transform: scale(1.1);
+}
+#rockMaster{
+    border: 1px solid;
+    inline-size: 40%;
+    overflow-wrap: break-word;
+    padding: 30px;
+}
+#rockMaster:hover{
+    transform: scale(1.1);
+}
+#opimg{
+    width: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer a{
+    color: bisque;
+}
+
+
+@media (max-width: 500px){
+
+}
